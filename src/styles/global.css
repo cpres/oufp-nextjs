@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.min-700 {
+  min-height: 700px;
+}

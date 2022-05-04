@@ -14,6 +14,10 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: {
+        'earth-day': "url('../public/images/earthday-team.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       colors: {
         primary: {
           100: '#E6F6FE',
