@@ -7,3 +7,15 @@
 .min-700 {
   min-height: 700px;
 }
+
+.basic-form button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: black;
+  color:white;
+}
+
+.basic-form input {
+  margin:5px;
+  padding: 5px 10px;
+}
