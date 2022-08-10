@@ -9,7 +9,7 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
-      <img src="assets/images/oufp-md.png" className="h-20" />
+      <img src="/assets/images/oufp-md.png" className="h-20" alt="OUFP Logo" />
     </span>
   );
 };

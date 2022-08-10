@@ -11,7 +11,7 @@ const Hero = () => (
     image="bg-[url('../../public/assets/images/earthday-team.jpg')]"
   >
     <Section yPadding="py-6" xClass="min-700">
-      <NavbarTwoColumns logo={<Logo xl />}>
+      <NavbarTwoColumns logo={<Logo xl />} slateGradient={50}>
         <li>
           <Link href="https://instagram.com/gravitygarden" passHref>
             <a target="_blank" rel="noopener noreferrer">

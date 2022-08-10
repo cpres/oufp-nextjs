@@ -5,6 +5,7 @@ import Link from 'next/link';
 type INavbarProps = {
   logo: ReactNode;
   children: ReactNode;
+  slateGradient: number;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
@@ -16,7 +17,9 @@ const NavbarTwoColumns = (props: INavbarProps) => (
     </div>
 
     <nav>
-      <ul className="navbar flex items-center font-medium text-xl text-slate-50">
+      <ul
+        className={`navbar flex items-center font-medium text-xl text-slate-${props.slateGradient}`}
+      >
         {props.children}
       </ul>
     </nav>
