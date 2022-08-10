@@ -8,7 +8,7 @@ const Banner = () => (
   <Section>
     <CTABanner
       title="Help Oakland neighbors experiencing homelessness."
-      subtitle="Contact for me information or to get involved."
+      subtitle="Contact for more information or to get involved."
       button={
         <Link href="mailto:housing@oufp.org">
           <a>
