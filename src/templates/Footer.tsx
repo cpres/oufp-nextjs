@@ -19,6 +19,11 @@ const Footer = () => (
             <a>Housing</a>
           </Link>
         </li>
+        <li>
+          <Link href="/protect-our-elders">
+            <a>Protect Our Elders</a>
+          </Link>
+        </li>
       </CenteredFooter>
     </Section>
   </Background>
