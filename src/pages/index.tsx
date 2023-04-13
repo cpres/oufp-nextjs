@@ -36,9 +36,9 @@ export const getStaticProps: GetStaticProps<HPProps> = async ({ params }) => {
     };
   }
   const now = new Date();
-  const filtered = jsonData.filter(
-    (vd: any) => new Date(vd.startDatetime) > now
-  );
+  const filtered = jsonData.length
+    ? jsonData.filter((vd: any) => new Date(vd.startDatetime) > now)
+    : [];
 
   return {
     props: {
