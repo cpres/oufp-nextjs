@@ -1,13 +1,20 @@
 import MailchimpFormContainer from '../cta/MailChimp';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
+import VolunteerDays from '../feature/VolunteerDays';
 import { Section } from '../layout/Section';
 
-const VerticalFeatures = () => (
+export interface VDayProps {
+  volunteerdays: Array<object>;
+}
+
+const VerticalFeatures = ({ volunteerdays }: VDayProps) => (
   <Section
     title="Oakland Urban Farming Project"
     description="Building community through farming, beautification and education."
   >
     <MailchimpFormContainer />
+
+    <VolunteerDays volunteerdays={volunteerdays} name="Gravity Garden" />
 
     <VerticalFeatureRow
       title="Volunteer Events"
