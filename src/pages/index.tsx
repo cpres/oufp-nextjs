@@ -23,11 +23,18 @@ export function Homepage({ volunteerdays }: HPProps) {
 
 export default Homepage;
 
-export const getStaticProps: GetStaticProps<HPProps> = async () => {
+export const getStaticProps: GetStaticProps<HPProps> = async ({ params }) => {
+  const slug = params ? params.slug : 'gravity-garden';
   const res = await fetch(
-    `${process.env.STEWARD_API}/api/volunteer-days/garden/gravity-garden`
+    `${process.env.STEWARD_API}/api/volunteer-days/garden/${slug}`
   );
+
   const jsonData = await res.json();
+  if (!jsonData) {
+    return {
+      notFound: true,
+    };
+  }
   const now = new Date();
   const filtered = jsonData.filter(
     (vd: any) => new Date(vd.startDatetime) > now
