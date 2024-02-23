@@ -8,6 +8,13 @@ const Header = () => (
   <Section yPadding="py-6" xClass="header">
     <NavbarTwoColumns logo={<Logo xl />} slateGradient={800}>
       <li>
+        <Link href="/donate" passHref>
+          <a target="_blank" rel="noopener noreferrer" className="dark-text">
+            Donate
+          </a>
+        </Link>
+      </li>
+      <li>
         <Link href="https://instagram.com/gravitygarden" passHref>
           <a target="_blank" rel="noopener noreferrer" className="dark-text">
             Instagram

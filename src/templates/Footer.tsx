@@ -15,6 +15,12 @@ const Footer = () => (
           </Link>
         </li>
         <li>
+          <Link href="/donate">
+            <a>Donate</a>
+          </Link>
+        </li>
+
+        <li>
           <Link href="/housing">
             <a>Housing</a>
           </Link>
