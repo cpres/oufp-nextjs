@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 import className from 'classnames';
 import { useRouter } from 'next/router';
 
@@ -7,6 +9,7 @@ type IVerticalFeatureRowProps = {
   image: string;
   imageAlt: string;
   reverse?: boolean;
+  button?: ReactNode;
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
@@ -25,8 +28,15 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full sm:w-1/2 text-center sm:px-6">
-        <h3 className="text-3xl text-gray-900 font-semibold">{props.title}</h3>
-        <div className="mt-6 text-xl leading-9">{props.description}</div>
+        <h3 className="text-3xl text-gray-900 dark:text-gray-100 font-semibold">
+          {props.title}
+        </h3>
+        <div className="mt-6 text-xl leading-9 text-gray-600 dark:text-gray-300">
+          {props.description}
+        </div>
+        {props.button && (
+          <div className="mt-6 flex justify-center">{props.button}</div>
+        )}
       </div>
 
       <div className="w-full sm:w-1/2 p-6">

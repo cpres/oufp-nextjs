@@ -17,7 +17,7 @@ const Button = (props: IButtonProps) => {
     <div className={btnClass}>
       {props.children}
 
-      <style jsx>
+      <style jsx global>
         {`
           .btn {
             @apply inline-block rounded-md text-center;
@@ -37,6 +37,15 @@ const Button = (props: IButtonProps) => {
 
           .btn-primary:hover {
             @apply bg-primary-600;
+          }
+
+          :global(.dark) .btn-primary {
+            background-color: #c2410c;
+            color: white;
+          }
+
+          :global(.dark) .btn-primary:hover {
+            background-color: #9a3412;
           }
         `}
       </style>

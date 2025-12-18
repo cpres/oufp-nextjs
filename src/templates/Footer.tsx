@@ -6,7 +6,7 @@ import { Section } from '../layout/Section';
 import { Logo } from './Logo';
 
 const Footer = () => (
-  <Background color="bg-gray-100" image="null">
+  <Background color="bg-gray-100 dark:bg-darkGreen-900" image="null">
     <Section>
       <CenteredFooter logo={<Logo />} iconList={<></>}>
         {/* Add a div with flex and flex-col for mobile, and optionally flex-row for larger screens */}

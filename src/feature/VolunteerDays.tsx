@@ -15,11 +15,13 @@ function VolunteerDays({ name, volunteerdays }: VDayProps) {
   // console.log(volunteerdays);
   return (
     <div className="text-center">
-      <h1 className="text-2xl">Upcoming {name} Volunteer Days</h1>
+      <h1 className="text-2xl text-gray-900 dark:text-gray-100">
+        Upcoming {name} Volunteer Days
+      </h1>
       {volunteerdays.length ? (
         <>
           {volunteerdays.map((vday: Record<DayKey, string>, idx) => (
-            <div key={idx}>
+            <div key={idx} className="text-gray-700 dark:text-gray-300">
               <span className="underline text-lg">{vday.title}</span>
               <span>
                 {' '}
@@ -29,7 +31,9 @@ function VolunteerDays({ name, volunteerdays }: VDayProps) {
           ))}
         </>
       ) : (
-        <p className="text-lg">Every 3rd Sunday!</p>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          Every 3rd Sunday!
+        </p>
       )}
     </div>
   );

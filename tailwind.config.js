@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class', // Enable class-based dark mode
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -40,6 +41,32 @@ module.exports = {
           700: '#4a5568',
           800: '#2d3748',
           900: '#1a202c',
+        },
+        darkGreen: {
+          50: '#f0f9f4',
+          100: '#dcf2e3',
+          200: '#bce5cc',
+          300: '#8fd0a8',
+          400: '#5ab37d',
+          500: '#369862',
+          600: '#287a4f',
+          700: '#226242',
+          800: '#1e4e37',
+          900: '#1a402f',
+          950: '#0d2319',
+        },
+        orange: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316',
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
+          950: '#431407',
         },
       },
       lineHeight: {

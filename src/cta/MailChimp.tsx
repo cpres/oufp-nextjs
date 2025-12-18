@@ -13,9 +13,9 @@ const MailchimpFormContainer = () => {
       <MailchimpSubscribe
         url={postUrl}
         render={({ status, message }) => (
-          <div className="basic-form text-center flex flex-col p-2 sm:text-left sm:items-center sm:justify-between sm:p-12 bg-primary-100 rounded-md">
+          <div className="basic-form text-center flex flex-col p-2 sm:text-left sm:items-center sm:justify-between sm:p-12 bg-primary-100 dark:bg-darkGreen-800 rounded-md">
             <div className="text-xl font-semibold">
-              <div className="text-2xl text-gray-900 text-center">
+              <div className="text-2xl text-gray-900 dark:text-gray-100 text-center">
                 Join our email newsletter!
               </div>
               <MailchimpSubscribe url={postUrl} />

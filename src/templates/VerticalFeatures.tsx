@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+import { Button } from '../button/Button';
 import MailchimpFormContainer from '../cta/MailChimp';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import VolunteerDays from '../feature/VolunteerDays';
@@ -17,10 +20,17 @@ const VerticalFeatures = ({ volunteerdays }: VDayProps) => (
     <VolunteerDays volunteerdays={volunteerdays} name="Gravity Garden" />
 
     <VerticalFeatureRow
-      title="Volunteer Events"
-      description="Oakland Urban Farming Project is always looking for more ways to create a greater sense of community and a stronger connection to the Earth for our volunteers. Whether you're looking to give back, learn more about urban gardening, meet new friends, or fit a great outdoor workout into your schedule, we have events and projects for you!"
+      title="Gravity Garden"
+      description="Since 2019, we've been cultivating community in Oakland's Ivy Hill neighborhood. Discover hands-on gardening techniques, contribute to our community pantry with fresh produce, and build meaningful connections with your neighbors. Whether you want to volunteer, expand your knowledge, or simply enjoy working in the garden—we welcome you to grow alongside us!"
       image="/assets/images/volunteer-square.webp"
-      imageAlt="Volunteer"
+      imageAlt="Gravity Garden"
+      button={
+        <Link href="https://steward.garden/gardens/gravity-garden">
+          <a target="_blank" rel="noopener noreferrer">
+            <Button>Head to Gravity Garden</Button>
+          </a>
+        </Link>
+      }
     />
     <VerticalFeatureRow
       title="Learn & Harvest"
@@ -32,10 +42,17 @@ const VerticalFeatures = ({ volunteerdays }: VDayProps) => (
       reverse
     />
     <VerticalFeatureRow
-      title="Food Pantry"
-      description="Originally put in place at the beginning of the pandemic as a table, we have gone and upgraded to a vertical pantry with a tiled floor. People across the community both donate, and take what they need daily. If you're looking for an easy way to support the community look no further than donating food here"
-      image="/assets/images/pantry-square.webp"
-      imageAlt="Third feature alt text"
+      title="Protect Our Elders"
+      description="The elder tree, Sambucus, is an indigenous tree to California, and is a highly versatile and beautiful tree. We're working to protect these trees from invasive species like cape ivy and help them thrive. In June we expect to see elderflowers, incredible in teas, and we all know about the glories of elderberry syrup for our immune system. Let's work together to make these incredible trees thrive and be useful to our community."
+      image="/assets/images/elderberry-branch-berries.png"
+      imageAlt="Protect Our Elders - Elderberry branch with berries"
+      button={
+        <Link href="https://steward.garden/gardens/protect-our-elders">
+          <a target="_blank" rel="noopener noreferrer">
+            <Button>Learn More About Protect Our Elders</Button>
+          </a>
+        </Link>
+      }
     />
   </Section>
 );

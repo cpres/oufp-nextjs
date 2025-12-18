@@ -15,7 +15,30 @@
   color:white;
 }
 
+.dark .basic-form button {
+  background-color: #c2410c;
+  color: white;
+}
+
 .basic-form input {
   margin:5px;
   padding: 5px 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.dark .basic-form input {
+  background-color: #1e4e37;
+  color: white;
+  border-color: #287a4f;
+}
+
+.dark .btn-primary {
+  background-color: #c2410c !important;
+  color: white !important;
+}
+
+.dark .btn-primary:hover {
+  background-color: #9a3412 !important;
 }
