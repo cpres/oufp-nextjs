@@ -47,19 +47,28 @@ const EducationWithTea = () => (
           accessible and engaging for young students.
         </p>
 
-        <div>
-          <p className="font-semibold">Sample lesson titles include:</p>
-          <ul className="mt-2 list-disc space-y-2 pl-6">
-            <li>&quot;What Do Plants Eat? Soil, Sun, &amp; Air&quot;</li>
-            <li>
-              &quot;We Are What We Eat: Plant Health &amp; Our Health&quot;
-            </li>
-            <li>&quot;Pests versus Guests: Even Bad Bugs Can Be Good!&quot;</li>
-            <li>&quot;Plants Have Families: Where Are They From?&quot;</li>
-            <li>
-              &quot;Pollinator Power! The Secrets Flowers Can Tell You&quot;
-            </li>
-          </ul>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:items-start">
+          <div>
+            <p className="font-semibold">Sample lesson titles include:</p>
+            <ul className="mt-2 list-disc space-y-2 pl-6">
+              <li>&quot;What Do Plants Eat? Soil, Sun, &amp; Air&quot;</li>
+              <li>
+                &quot;We Are What We Eat: Plant Health &amp; Our Health&quot;
+              </li>
+              <li>
+                &quot;Pests versus Guests: Even Bad Bugs Can Be Good!&quot;
+              </li>
+              <li>&quot;Plants Have Families: Where Are They From?&quot;</li>
+              <li>
+                &quot;Pollinator Power! The Secrets Flowers Can Tell You&quot;
+              </li>
+            </ul>
+          </div>
+          <img
+            src="/assets/images/education-with-tea-team.png"
+            alt="OUFP education with tea team members in the school garden"
+            className="w-full rounded-lg md:justify-self-end"
+          />
         </div>
 
         <p>
