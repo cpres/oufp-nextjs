@@ -3,15 +3,17 @@ import Script from 'next/script';
 import { Section } from '../layout/Section';
 import { Footer } from '../templates/Footer';
 import { Header } from '../templates/Header';
+import { PageTitleBanner } from '../templates/PageTitleBanner';
 
 const Donate = () => (
   <>
     <Header />
     <Script src="https://widgets.givebutter.com/latest.umd.cjs?acct=Lscxchi3SB8UkBgS&p=other" />
-    <Section
-      title="OUFP Donations"
-      description="Building a better world through land stewardship"
-    >
+    <Section yPadding="py-4">
+      <PageTitleBanner
+        title="OUFP Donations"
+        description="Building a better world through land stewardship"
+      />
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <img

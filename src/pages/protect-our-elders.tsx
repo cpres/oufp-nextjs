@@ -3,11 +3,16 @@ import { InstagramEmbed } from 'react-social-media-embed';
 import { Section } from '../layout/Section';
 import { Footer } from '../templates/Footer';
 import { Header } from '../templates/Header';
+import { PageTitleBanner } from '../templates/PageTitleBanner';
 
 const Elders = () => (
   <>
     <Header />
-    <Section title="Protect Our Elders" description="Honoring the elder trees.">
+    <Section yPadding="py-4">
+      <PageTitleBanner
+        title="Protect Our Elders"
+        description="Honoring the elder trees."
+      />
       <p className="p-3">
         The elder tree, Sambucus, is an indigenous tree to California, and is a
         highly versatile and beautiful tree. So why not make sure it thrives

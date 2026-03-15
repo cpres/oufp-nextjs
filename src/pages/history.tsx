@@ -1,14 +1,16 @@
 import { Section } from '../layout/Section';
 import { Footer } from '../templates/Footer';
 import { Header } from '../templates/Header';
+import { PageTitleBanner } from '../templates/PageTitleBanner';
 // import { Footer } from './Footer';
 const History = () => (
   <>
     <Header />
-    <Section
-      title="History of OUFP"
-      description="Since establishing in 2021 we have continuously worked to be a beacon of light in our community"
-    >
+    <Section yPadding="py-4">
+      <PageTitleBanner
+        title="History of OUFP"
+        description="Since establishing in 2021 we have continuously worked to be a beacon of light in our community"
+      />
       <div className="text-lg leading-loose">
         <p className="mt-5">
           The Oakland Urban Farming Project (OUFP) was born in 2021, rooted in
