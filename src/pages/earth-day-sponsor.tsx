@@ -106,6 +106,12 @@ const EarthDaySponsor = () => (
       </p>
 
       <img
+        src="/assets/images/earthday-2025-water.png"
+        alt="Earth Day community event at Gravity Garden"
+        className="w-full rounded-lg"
+      />
+
+      <img
         src="/assets/images/oufp_food_forest_animated.svg"
         alt="Oakland Urban Farming Project Earth Day 2026 illustrated banner"
         className="mt-8 w-full rounded-lg"
