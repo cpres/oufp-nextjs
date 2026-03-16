@@ -16,8 +16,8 @@
 }
 
 .dark .basic-form button {
-  background-color: #c2410c;
-  color: white;
+  background-color: #d5ddb9;
+  color: black;
 }
 
 .basic-form input {
@@ -29,9 +29,14 @@
 }
 
 .dark .basic-form input {
-  background-color: #1e4e37;
-  color: white;
-  border-color: #287a4f;
+  background-color: #b9c69a;
+  color: black;
+  border-color: #4d5a2b;
+}
+
+.dark .basic-form input::placeholder {
+  color: #2f3a16;
+  opacity: 1;
 }
 
 .dark .btn-primary {

@@ -32,8 +32,14 @@ const Donate = () => (
             today!
           </p>
         </div>
-        <div className="flex justify-center md:w-1/2">
-          <givebutter-widget id="j2R9aj"></givebutter-widget>
+        <div className="space-y-3 md:w-1/2">
+          <div className="flex justify-center">
+            <givebutter-widget id="j2R9aj"></givebutter-widget>
+          </div>
+          <p className="px-3 text-sm text-pea-900 md:text-center">
+            Givebutter may ask for an optional tip to support their platform.
+            Tipping is absolutely not required.
+          </p>
         </div>
       </div>
     </Section>
