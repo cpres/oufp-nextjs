@@ -66,12 +66,12 @@ const NavigationMenu = () => {
               Earth Day Sponsorship
             </a>
           </Link>
-          <Link href="/education-with-tea">
+          <Link href="/students">
             <a
               onClick={closeMenu}
               className="block border-b border-pea-300 px-4 py-3 font-medium text-pea-900 hover:bg-pea-300"
             >
-              Education with Tea
+              Education Efforts
             </a>
           </Link>
           <Link href="/protect-our-elders">
