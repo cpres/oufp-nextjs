@@ -75,7 +75,7 @@ const EducationWithTea = () => (
           Donations to the Sudents campaign directly support the OUFP Students program
           by covering supplies (seeds, starts, pots, soil, tools, and more) and
           gardening teacher compensation. Gifts also help us secure an
-          additional $2,000 matching grant. Please mention "Sutdents Program" in the <b>Add note/comment<b> field when using the GiveButter donation form.
+          additional $2,000 matching grant! Please mention "Sutdents Program" in the <b>Add note/comment<b> field when using the GiveButter donation form.
         </p>
 
         <p>
