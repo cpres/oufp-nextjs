@@ -10,7 +10,7 @@ const EducationWithTea = () => (
     <Header />
     <Section yPadding="py-4">
       <PageTitleBanner
-        title="Education with Tea"
+        title="Student Program at James Madison Elementary"
         description="Helping students grow healthier futures through school gardening."
       />
 
@@ -72,10 +72,10 @@ const EducationWithTea = () => (
         </div>
 
         <p>
-          Donations to this campaign directly support the OUFP Students program
+          Donations to the Sudents campaign directly support the OUFP Students program
           by covering supplies (seeds, starts, pots, soil, tools, and more) and
           gardening teacher compensation. Gifts also help us secure an
-          additional $2,000 matching grant.
+          additional $2,000 matching grant. Please mention "Sutdents Program" in the <b>Add note/comment<b> field when using the GiveButter donation form.
         </p>
 
         <p>
