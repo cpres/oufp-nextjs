@@ -69,7 +69,7 @@ const EarthDaySponsor = () => (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="rounded-lg bg-pea-100 p-4">
             <h4 className="text-xl font-bold text-pea-900">
-              Harest Hero - $500
+              Harvest Hero - $500
             </h4>
             <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>Prominent logo placement on event flyer</li>
