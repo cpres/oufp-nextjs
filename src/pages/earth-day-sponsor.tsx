@@ -28,6 +28,15 @@ const EarthDaySponsor = () => (
             that supports you.
           </p>
 
+          <a
+            href="/assets/docs/OUFP-EarthDay-Sponsor-Kit.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex rounded-lg bg-pea-700 px-6 py-3 text-lg font-bold text-white hover:bg-pea-900"
+          >
+            Download the Earth Day Sponsorship Kit
+          </a>
+
           <p>
             By sponsoring our Earth Day Festival, your business will be
             recognized as a community ally while demonstrating a commitment to
@@ -111,11 +120,16 @@ const EarthDaySponsor = () => (
         className="w-full rounded-lg"
       />
 
-      <img
-        src="/assets/images/oufp_food_forest_animated.svg"
-        alt="Oakland Urban Farming Project Earth Day 2026 illustrated banner"
-        className="mt-8 w-full rounded-lg"
-      />
+      <div className="my-12 flex justify-center">
+        <a
+          href="/assets/docs/OUFP-EarthDay-Sponsor-Kit.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex rounded-lg bg-pea-700 px-6 py-3 text-lg font-bold text-white hover:bg-pea-900"
+        >
+          Download the Earth Day Sponsorship Kit
+        </a>
+      </div>
     </Section>
     <Footer />
   </>
