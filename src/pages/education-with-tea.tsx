@@ -17,8 +17,13 @@ const EducationWithTea = () => (
       <div className="mx-auto max-w-4xl space-y-5 px-3 text-lg leading-relaxed text-pea-900">
         <p>
           Oakland Urban Farming Project&apos;s initiative with Madison
-          Elementary School in San Leandro is a new collaboration, built on prior work led by instructor Tea Parker-Essig. The OUFP Students program gets young people outside and into the garden to support physical and mental health, strengthen social relationships, and improve academic success. Research shows that youth who grow plants in school gardens are more likely to choose fruits,
-          vegetables, and healthier overall meals.
+          Elementary School in San Leandro is a new collaboration, built on
+          prior work led by instructor Tea Parker-Essig. The OUFP Students
+          program gets young people outside and into the garden to support
+          physical and mental health, strengthen social relationships, and
+          improve academic success. Research shows that youth who grow plants in
+          school gardens are more likely to choose fruits, vegetables, and
+          healthier overall meals.
         </p>
 
         <p>
@@ -27,16 +32,17 @@ const EducationWithTea = () => (
           from low-income households. Students participating in the OUFP
           Students program are also members of Madison&apos;s after-school Boys
           &amp; Girls Club.
-          <small>(Madison Elementary statistics from{' '}
-          <a
-            href="https://www.greatschools.org/california/san-leandro/295-Madison-Elementary-School/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:no-underline"
-          >
-            GreatSchools.org
-          </a>
-          .)
+          <small>
+            (Madison Elementary statistics from{' '}
+            <a
+              href="https://www.greatschools.org/california/san-leandro/295-Madison-Elementary-School/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:no-underline"
+            >
+              GreatSchools.org
+            </a>
+            .)
           </small>
         </p>
 
@@ -80,34 +86,36 @@ const EducationWithTea = () => (
           additional $2,000 matching grant.
         </p>
 
-        <p style="text-align: center;">
+        <p style={{ textAlign: 'center' }}>
           You can support this work through our{' '}
           <Link href="/donate">
             <a className="font-semibold underline hover:no-underline">
               donation page
             </a>
           </Link>
-          .<br><br>
-          Please mention &quot;Students
-          Program&quot; in the <strong>Add note/comment</strong> field when
-          using the Givebutter donation form.
+          .<br />
+          <br />
+          Please mention &quot;Students Program&quot; in the{' '}
+          <strong>Add note/comment</strong> field when using the Givebutter
+          donation form.
         </p>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:items-start">
-        <img
-          src="/assets/images/in-the-garden-left.JPEG"
-          alt="Students in the garden at Madison Elementary School in San Leandro"
-          className="w-full rounded-lg md:justify-self-end"
-        />
-        <img
-          src="/assets/images/in-the-garden-right.JPEG"
-          alt="Students observe a Brassica at Madison Elementary School in San Leandro"
-          className="w-full rounded-lg md:justify-self-end"
-        />
+          <img
+            src="/assets/images/in-the-garden-left.JPEG"
+            alt="Students in the garden at Madison Elementary School in San Leandro"
+            className="w-full rounded-lg md:justify-self-end"
+          />
+          <img
+            src="/assets/images/in-the-garden-right.JPEG"
+            alt="Students observe a Brassica at Madison Elementary School in San Leandro"
+            className="w-full rounded-lg md:justify-self-end"
+          />
         </div>
 
-        <p className="text-base" style="text-align: center;">
-        Images above are from our second class this March at Madison Elementary.
+        <p className="text-base" style={{ textAlign: 'center' }}>
+          Images above are from our second class this March at Madison
+          Elementary.
         </p>
       </div>
     </Section>
