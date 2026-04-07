@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 
+import { EarthDayEventBanner } from '../components/EarthDayEventBanner';
 import ThemeToggle from '../components/ThemeToggle';
 import { Meta } from '../layout/Meta';
 import { Footer } from '../templates/Footer';
@@ -15,7 +16,10 @@ export function Homepage({ volunteerdays }: HPProps) {
   return (
     <div className="antialiased text-gray-600 dark:text-gray-200 bg-white dark:bg-darkGreen-950 transition-colors duration-200">
       <Meta title={AppConfig.title} description={AppConfig.description} />
-      <Hero />
+      <div className="relative">
+        <EarthDayEventBanner />
+        <Hero />
+      </div>
       <div className="relative">
         <ThemeToggle />
         <VerticalFeatures volunteerdays={volunteerdays} />
