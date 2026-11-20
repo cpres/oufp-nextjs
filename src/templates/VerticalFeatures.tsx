@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { Button } from '../button/Button';
-import MailchimpFormContainer from '../cta/MailChimp';
+import NewsletterSignup from '../cta/NewsletterSignup';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import VolunteerDays from '../feature/VolunteerDays';
 import { Section } from '../layout/Section';
@@ -15,7 +15,7 @@ const VerticalFeatures = ({ volunteerdays }: VDayProps) => (
     title="Oakland Urban Farming Project"
     description="Building community through farming, beautification and education."
   >
-    <MailchimpFormContainer />
+    <NewsletterSignup />
 
     <VolunteerDays volunteerdays={volunteerdays} name="Gravity Garden" />
 
